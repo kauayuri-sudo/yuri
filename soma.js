@@ -1,5 +1,10 @@
-function somar (numeros1 numero 2){  
-let resulta= numero 1 + numero 2
-console.log(resultado);
+function soma(a,b) {
+ return a + b;
 }
-somar (5,3)
+
+
+
+module.exports = soma;
+
+resultado = soma(5, 10);
+console.log(resultado)
